@@ -39,4 +39,8 @@ $(".blue-box").fadeToggle(); */
   $("p:first").css("background", "yellow").fadeOut(2000).fadeIn(2000);
   $("input[type='text']").css("background", "yellow").fadeOut(2000).fadeIn(2000);
   $("li:odd").css("background", "yellow").fadeOut(2000).fadeIn(2000);
+  $("#list").parents("div").css("background", "red").fadeOut(2000).fadeIn(2000);
+  $("#content").css("background", "orange")
+  $("#list").parent().prev().css("background", "pink").fadeOut(2000).fadeIn(2000);
+
 });

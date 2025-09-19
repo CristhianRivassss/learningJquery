@@ -10,7 +10,11 @@
   background-color: rgba(200, 100, 0, 0.9);
   text-align: center;
   text-shadow: #333 0 1px 0; }
-
+a {
+  display: block;
+  min-height: 20px;
+  width: 100%;
+}
 .red-box {
   float: left;
   width: 80px;
